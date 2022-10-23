@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/result"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="Join"
+        app:cnb_iconColor="#0F3460"/>
+    <item
+        android:id="@+id/topup"
+        android:icon="@drawable/diamond"
+        android:title="Topup"
+        app:cnb_iconColor="#0F3460"/>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:cnb_backgroundColor="#533483"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Proflie"
+        app:cnb_iconColor="#E94560" />
+
+</menu>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black"
+tools:context=".Coin_buy"
+android:orientation="vertical"
+android:gravity="center"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:textSize="22dp"
+            android:text="Bkash"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:layout_gravity="center"
+
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="01810128656 \n01878650683"
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text=""
+
+
+
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF5722"
+            android:textSize="22dp"
+            android:text="Nagad"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:layout_gravity="center"
+
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="01810128656 \n01878650683"
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text=""
+
+
+
+            >
+
+        </TextView>
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radio_gruop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+
+
+        >
+
+        <RadioButton
+            android:id="@+id/bikash_radio"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bikash"
+            android:textColor="@color/white"
+            android:checked="true"
+            >
+
+        </RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/nogod_radiio"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/nogod"
+            android:textColor="@color/white"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/roket_radio"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/roket"
+            android:textColor="@color/white"
+            >
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <EditText
+
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Enter Phone Number "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        >
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Enter Sending Amount "
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="number"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/sent_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sent"
+        android:background="@color/white"
+        android:textColor="@color/black"
+
+        >
+
+    </Button>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "610442358208",
+    "project_id": "gamewinner-41d2c",
+    "storage_bucket": "gamewinner-41d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610442358208:android:6e12635fa683f57ce16c25",
+        "android_client_info": {
+          "package_name": "com.game.gamewinner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610442358208-4hmljmo29cpq8c7tdlmnukhmu67fcl1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFPst08EQIR6tOuNO0Fug4dcKqUwJ4caE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610442358208-4hmljmo29cpq8c7tdlmnukhmu67fcl1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

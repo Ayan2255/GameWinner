@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45A587"
+    tools:context=".Coin_buy"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Withdraw"
+             android:textSize="35dp"
+             android:textStyle="bold|italic"
+             android:textColor="#FF5722"
+             android:layout_marginBottom="30dp"
+             >
+
+         </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio_gruop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+
+
+            >
+
+            <RadioButton
+                android:id="@+id/bikash_radio"
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bikash"
+                android:textColor="@color/white"
+                android:checked="true"
+                >
+
+            </RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/nogod_radiio"
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/nogod"
+                android:textColor="@color/white"
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/roket_radio"
+                android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roket"
+                android:textColor="@color/white"
+                >
+
+            </RadioButton>
+
+        </RadioGroup>
+
+        <EditText
+
+            android:id="@+id/wd_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Enter Phone Number "
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/wd_amount"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Enter Sending Amount "
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/wd_sent_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="sent"
+            android:background="@color/white"
+            android:textColor="@color/black"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

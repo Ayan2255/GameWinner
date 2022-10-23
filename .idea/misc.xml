@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable-v24/ic_icons8_facebook.xml" value="0.2755" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.309" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable-v24/singin_edit_text_backgraownd.xml" value="0.2755" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable-v24/singin_email_icon.xml" value="0.2755" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/bg.xml" value="0.273" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/bg2.xml" value="0.273" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/border.xml" value="0.3105" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/borderr.xml" value="0.141" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2925" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2705" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1945" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.103" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2925" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/round_corners.xml" value="0.1" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/drawable/shap.xml" value="0.2705" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout-land/activity_splash_screen.xml" value="0.2476107732406603" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout-land/event_demo.xml" value="0.14" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout-land/fragment_notification.xml" value="0.2510860121633362" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_forgotten_password.xml" value="0.22010869565217392" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_singup.xml" value="0.33" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/activity_splash_screen.xml" value="0.30104166666666665" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/event_demo.xml" value="0.3503787878787879" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/event_demoo.xml" value="0.14515318935208438" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/event_list_demo.xml" value="0.22" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_coin_buy.xml" value="0.22" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_coin_bye.xml" value="0.25815217391304346" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_notification.xml" value="0.22010869565217392" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_result.xml" value="0.14515318935208438" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_sms.xml" value="0.30104166666666665" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_topup.xml" value="0.5" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/fragment_withdraw.xml" value="0.213768115942029" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/slide_image_demo.xml" value="0.1" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/topup_alartdialoge.xml" value="0.2947019867549669" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/layout/topup_demo.xml" value="0.22146739130434784" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="..\:/Project/GameWinner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2925" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

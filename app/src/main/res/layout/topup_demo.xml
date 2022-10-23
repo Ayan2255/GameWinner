@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:padding="4dp"
+    android:background="@drawable/shap"
+    android:elevation="44dp"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#16213E"
+        android:orientation="horizontal"
+       >
+      <com.airbnb.lottie.LottieAnimationView
+          android:id="@+id/lotti1"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          app:lottie_autoPlay="true"
+          android:layout_weight="1"
+          android:layout_gravity="center"
+          app:lottie_fileName="diamond.json"
+          app:lottie_loop="true">
+
+      </com.airbnb.lottie.LottieAnimationView>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_margin="5dp"
+           android:layout_weight="1">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:text="Diamond"
+               android:layout_weight="1"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               android:id="@+id/topup_name"
+               >
+
+           </TextView>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:text="Top Up"
+               android:layout_weight="1"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               >
+
+           </TextView>
+       </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="150dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:layout_gravity="right"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+         <TextView
+             android:id="@+id/demo_diamond"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:text="999 Diamond"
+             android:layout_weight="1"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             >
+
+         </TextView>
+         <TextView
+             android:id="@+id/demo_taka"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:text="999 Taka"
+             android:layout_weight="1"
+             android:textColor="#FFC107"
+             android:textSize="15sp"
+             >
+
+         </TextView>
+         <TextView
+             android:id="@+id/shop_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:background="@drawable/singin_edit_text_backgraownd"
+             android:text="Shop"
+             android:padding="8dp"
+             android:layout_weight="1"
+             android:textColor="#E91E63"
+             android:textSize="17sp"
+             >
+
+         </TextView>
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

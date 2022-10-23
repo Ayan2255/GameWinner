@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:id="@+id/event_demo_layout"
+
+    >
+<TextView
+    android:id="@+id/event_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="Free Fire Classic"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    >
+
+</TextView>
+
+<soup.neumorphism.NeumorphCardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Widget.Neumorph.CardView"
+    app:neumorph_shadowElevation="@dimen/edit_text_underline_corner_size"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/event_pic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/aa"
+            android:scaleType="centerCrop"
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+
+
+                <TextView
+                    android:id="@+id/event_join_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Join \n 50 coin"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:gravity="center"
+                    >
+
+                </TextView>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                >
+
+
+
+                <TextView
+                    android:id="@+id/event_prize_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF9800"
+                    android:text="Prizze \n 50 coin"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    >
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                >
+
+
+
+                <TextView
+                    android:id="@+id/event_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="game time"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:gravity="center"
+                    >
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/event_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Date \n 11/11/2000"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</soup.neumorphism.NeumorphCardView>
+
+
+
+
+</LinearLayout>
